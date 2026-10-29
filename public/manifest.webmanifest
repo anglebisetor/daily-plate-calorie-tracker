@@ -1,0 +1,10 @@
+{
+  "name": "Daily Plate — Calorie Tracker",
+  "short_name": "Daily Plate",
+  "description": "Track calories from everyday Indian foods.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f8f5",
+  "theme_color": "#f6f8f5",
+  "icons": []
+}
