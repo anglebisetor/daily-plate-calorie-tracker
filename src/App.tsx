@@ -226,7 +226,17 @@ export default function App() {
 
   return <div className="app-shell">
     <header className="topbar">
-      <a className="brand" href="#" onClick={e=>e.preventDefault()}><span className="brand-mark"><Leaf size={20}/></span><span>daily<span className="brand-light">plate</span><small>INDIAN CALORIE TRACKER</small></span></a>
+     
+<a className="brand" href="#" onClick={e=>e.preventDefault()}>
+  <span className="brand-mark">
+    <img src="/favicon.svg" alt="S" width="36" height="36" />
+  </span>
+  <span>
+    <span className="brand-light">Suraj's Plate</span>
+    <small>Suraj Calorie Tracker</small>
+  </span>
+</a>
+
       <div className="top-actions">
         <span className={`sync-status ${syncMode}`}><span className="sync-dot"/>{syncMode==='cloud'?'Synced to cloud':syncMode==='loading'?'Connecting…':'Saved on this device'}</span>
         <button className="icon-btn" title="Settings" onClick={()=>setShowSettings(true)}><Settings2 size={19}/></button>
